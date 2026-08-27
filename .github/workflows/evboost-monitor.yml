@@ -21,7 +21,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: main
+          fetch-depth: 0
+
+      - name: Sync latest main
+        run: git pull --rebase origin main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -38,7 +41,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
           git add data/evboost_history.csv data/evboost_report.txt
           git diff --cached --quiet || git commit -m "Collect EVBOOST data"
-          git push origin main
+          git push origin HEAD:main
