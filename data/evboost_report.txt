@@ -1,61 +1,61 @@
 ==============================================================================
 EVBOOST — ДЕТАЛЬНА СТАТИСТИКА
 ==============================================================================
-Період: 2026-08-26 22:27:26  →  2026-09-16 21:44:52
-Знімків у CSV: 3048
+Період: 2026-08-26 22:27:26  →  2026-09-16 23:32:30
+Знімків у CSV: 3060
 Інтервал збору: 5 хв
 
 ------------------------------------------------------------------------------
 Ралівка (ID 12095)
 ------------------------------------------------------------------------------
-CCS2: FREE  63.8% ( 13.50 h) | CHARGING  18.1% (  3.83 h) | OTHER  18.1% (  3.83 h) | online  97.6%
-    samples=254, power examples from raw CSV, avg SOC=53.0%
-Chademo: FREE  67.3% ( 14.25 h) | CHARGING  19.7% (  4.17 h) | OTHER  13.0% (  2.75 h) | online  97.6%
-    samples=254, power examples from raw CSV, avg SOC=52.4%
-GBT DC: FREE  68.5% ( 14.50 h) | CHARGING  24.0% (  5.08 h) | OTHER   7.5% (  1.58 h) | online  97.6%
-    samples=254, power examples from raw CSV, avg SOC=53.1%
-Type2: FREE  72.8% ( 15.42 h) | CHARGING  20.1% (  4.25 h) | OTHER   7.1% (  1.50 h) | online  97.6%
-    samples=254, power examples from raw CSV, avg SOC=55.2%
+CCS2: FREE  63.9% ( 13.58 h) | CHARGING  18.0% (  3.83 h) | OTHER  18.0% (  3.83 h) | online  97.6%
+    samples=255, power examples from raw CSV, avg SOC=53.0%
+Chademo: FREE  67.1% ( 14.25 h) | CHARGING  19.6% (  4.17 h) | OTHER  13.3% (  2.83 h) | online  97.6%
+    samples=255, power examples from raw CSV, avg SOC=52.4%
+GBT DC: FREE  68.6% ( 14.58 h) | CHARGING  23.9% (  5.08 h) | OTHER   7.5% (  1.58 h) | online  97.6%
+    samples=255, power examples from raw CSV, avg SOC=53.1%
+Type2: FREE  72.5% ( 15.42 h) | CHARGING  20.4% (  4.33 h) | OTHER   7.1% (  1.50 h) | online  97.6%
+    samples=255, power examples from raw CSV, avg SOC=54.6%
 
 Поточний останній відомий стан:
-    Chademo: FREE (80 kW), SOC=
-    CCS2: FINISHING (120 kW), SOC=
+    Chademo: FINISHING (80 kW), SOC=
+    CCS2: FREE (120 kW), SOC=
     GBT DC: FREE (120 kW), SOC=
-    Type2: FREE (22 kW), SOC=
+    Type2: CHARGING (22 kW), SOC=25
 ------------------------------------------------------------------------------
 Турка (ID 30663)
 ------------------------------------------------------------------------------
-CCS2: FREE  61.8% ( 13.08 h) | CHARGING  17.7% (  3.75 h) | OTHER  20.5% (  4.33 h) | online  92.5%
-    samples=254, power examples from raw CSV, avg SOC=58.4%
-Chademo: FREE  66.1% ( 14.00 h) | CHARGING  19.3% (  4.08 h) | OTHER  14.6% (  3.08 h) | online  92.5%
-    samples=254, power examples from raw CSV, avg SOC=50.5%
-Type1: FREE  15.0% (  3.17 h) | CHARGING  19.3% (  4.08 h) | OTHER  65.7% ( 13.92 h) | online  92.5%
-    samples=254, power examples from raw CSV, avg SOC=49.3%
-Type2: FREE  10.2% (  2.17 h) | CHARGING  18.9% (  4.00 h) | OTHER  70.9% ( 15.00 h) | online  92.5%
-    samples=254, power examples from raw CSV, avg SOC=63.8%
+CCS2: FREE  61.6% ( 13.08 h) | CHARGING  18.0% (  3.83 h) | OTHER  20.4% (  4.33 h) | online  92.5%
+    samples=255, power examples from raw CSV, avg SOC=57.8%
+Chademo: FREE  65.9% ( 14.00 h) | CHARGING  19.2% (  4.08 h) | OTHER  14.9% (  3.17 h) | online  92.5%
+    samples=255, power examples from raw CSV, avg SOC=50.5%
+Type1: FREE  15.3% (  3.25 h) | CHARGING  19.2% (  4.08 h) | OTHER  65.5% ( 13.92 h) | online  92.5%
+    samples=255, power examples from raw CSV, avg SOC=49.3%
+Type2: FREE  10.2% (  2.17 h) | CHARGING  19.2% (  4.08 h) | OTHER  70.6% ( 15.00 h) | online  92.5%
+    samples=255, power examples from raw CSV, avg SOC=63.8%
 
 Поточний останній відомий стан:
-    Chademo: CHARGING (40 kW), SOC=42
-    CCS2: FREE (40 kW), SOC=
-    Type2: FREE (22 kW), SOC=
+    Chademo: FINISHING (40 kW), SOC=
+    CCS2: CHARGING (40 kW), SOC=33
+    Type2: CHARGING (22 kW), SOC=65
     Type1: FREE (7 kW), SOC=
 ------------------------------------------------------------------------------
 Дрогобич (ID 12015)
 ------------------------------------------------------------------------------
-CCS2: FREE  62.2% ( 13.17 h) | CHARGING  20.1% (  4.25 h) | OTHER  17.7% (  3.75 h) | online  98.8%
-    samples=254, power examples from raw CSV, avg SOC=47.0%
-Chademo: FREE  60.2% ( 12.75 h) | CHARGING  21.3% (  4.50 h) | OTHER  18.5% (  3.92 h) | online  98.8%
-    samples=254, power examples from raw CSV, avg SOC=54.5%
-GBT DC: FREE  63.4% ( 13.42 h) | CHARGING  16.9% (  3.58 h) | OTHER  19.7% (  4.17 h) | online  98.8%
-    samples=254, power examples from raw CSV, avg SOC=50.2%
-Type2: FREE  67.3% ( 14.25 h) | CHARGING  19.3% (  4.08 h) | OTHER  13.4% (  2.83 h) | online  98.8%
-    samples=254, power examples from raw CSV, avg SOC=52.5%
+CCS2: FREE  62.0% ( 13.17 h) | CHARGING  20.0% (  4.25 h) | OTHER  18.0% (  3.83 h) | online  98.8%
+    samples=255, power examples from raw CSV, avg SOC=47.0%
+Chademo: FREE  60.4% ( 12.83 h) | CHARGING  21.2% (  4.50 h) | OTHER  18.4% (  3.92 h) | online  98.8%
+    samples=255, power examples from raw CSV, avg SOC=54.5%
+GBT DC: FREE  63.1% ( 13.42 h) | CHARGING  17.3% (  3.67 h) | OTHER  19.6% (  4.17 h) | online  98.8%
+    samples=255, power examples from raw CSV, avg SOC=49.4%
+Type2: FREE  67.1% ( 14.25 h) | CHARGING  19.6% (  4.17 h) | OTHER  13.3% (  2.83 h) | online  98.8%
+    samples=255, power examples from raw CSV, avg SOC=51.8%
 
 Поточний останній відомий стан:
-    Chademo: CHARGING (80 kW), SOC=59
-    CCS2: OTHER/OFFLINE (80 kW), SOC=
-    GBT DC: FREE (80 kW), SOC=
-    Type2: OTHER/OFFLINE (22 kW), SOC=
+    Chademo: FREE (80 kW), SOC=
+    CCS2: FINISHING (80 kW), SOC=
+    GBT DC: CHARGING (80 kW), SOC=15
+    Type2: CHARGING (22 kW), SOC=20
 
 ------------------------------------------------------------------------------
 ВАЖЛИВО
